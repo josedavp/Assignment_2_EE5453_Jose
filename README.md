@@ -1,2 +1,3 @@
-# Assignment_2_EE5453_Jose
-KV-cache 
+# EE 5453 Class assignment. This repository contains an implementation of a KV cache through experimentation 1,2, and 3. using a small pretrained Transformer.
+
+*AI (ChatGPT) was used in setup troubleshooting, debugging Anaconda/Python configuration errors. I learned how to properly configure and debug virtual environments, understand how CUDA errors are formed, verify how environments are interconnected, and verify deeper knowledge on my GPU and system hardware. It helped me verify the structure of the README through the best academic/industry practices. While it did provide guidance, I verified each type and confirmed the overall functionality and system design. It provided explanations on the Transformer code, and helped explain line my line while creating a template TODO for me to work on. I verified each step, reviewed each line, and saw how a Transformer is correctly processed. It provided deeper knowledge on KV cache implementation and its usage and overall impact compared to the standard design.*
