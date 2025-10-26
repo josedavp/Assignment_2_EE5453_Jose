@@ -1,0 +1,32 @@
+# AI Queries and Reflection
+
+## Overview
+This is the condensed version of the queries asked.
+---
+
+## 1. Main Queries Asked
+* Troubleshooting **Anaconda environment setup** and CUDA GPU configuration.  
+* Understanding **cache hierarchy (L1, L2, L3)** and its relevance to CPU/GPU performance.  
+* Clarifying **autoregressive modeling**, **KV-cache mechanics**, and **O(S²) -> O(S)** complexity.  
+* Structuring and verifying **`run_model.py`** step-by-step using TODO sections.  
+* Debugging **transformers library issues** and verifying CUDA availability.  
+* Guidance on **analysis.ipynb plots**, experiment setup, and data visualization.  
+* Advice on writing the **LaTeX report structure (Part C)** and README organization.  
+* Feedback on **academic integrity wording** and AI-use documentation.  
+
+---
+
+## 2. What I Learned
+* How to create and manage virtual environments correctly in Anaconda and Conda.  
+* How to confirm GPU access, CUDA compatibility, and interpret `nvidia-smi` results.  
+* How **KV-cache** works in Transformers to store key/value tensors and reduce redundant computation.  
+* Why inference complexity decreases from **O(S²) -> O(S)** when using cache.  
+* How to measure and interpret **throughput, latency, and GPU memory usage** with PyTorch.  
+* How **batch size and prompt length** affect inference speed and memory scaling.  
+* How to apply academic practices in README structure, code organization, and report presentation.  
+* The importance of transparency in reporting AI usage as a collaborative learning tool.
+
+---
+
+## 3. Reflection
+Using AI as a learning resource allowed me to approach the assignment carefully. I used AI (ChatGPT) to understand cache hierarchies, set up debugging environments, gain a deeper understanding of KV-Caches, and comprehend how transformers function properly. It also gave a better understanding of how an LLM is set up (I still verified the code, and created a TODO for my own learning, with added commentary for deeper knowledge), It gave guidance on the equations and deeper knowledge on special and temporal locality. This process helped me internalize the concepts behind KV caching and Transformer efficiency. Helping to strengthen my knowledge and gain new insights into Transformers and KV caching through both theoretical and practical implementations.
