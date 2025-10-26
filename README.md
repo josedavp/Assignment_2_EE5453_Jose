@@ -6,6 +6,11 @@ It also guided me on best academic and industry practices for structuring the RE
 While it provided guidance, I verified every command, confirmed functionality, and reviewed the Transformer code line by line using the provided TODO templates.  
 This helped me understand KV-cache implementation, its usage, and its performance impact compared to standard Transformer inference.*
 
+Primary Queries with Reflection, and Raw Queries are within the main repository:  
+- [AI_Queries_Reflection](AI_Queries_Reflection.txt)  
+- [raw_AI_queries](raw_AI_queries.txt)  
+
+
 ---
 
 This project implements and analyzes **Key-Value (KV) caching** in Transformers to study how caching improves inference performance in large language models (LLMs).  
@@ -14,7 +19,6 @@ All experiments were performed on `distilgpt2` using PyTorch and Hugging Face Tr
 ---
 
 ## Installation and Environment Setup
-
 Create and activate the virtual environment:
 ```bash
 conda create -n kvcache python=3.11 -y
