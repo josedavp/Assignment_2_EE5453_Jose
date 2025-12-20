@@ -46,11 +46,12 @@ edge_llm/
 
 ## Setup Instructions
 1. Build llama.cpp on Jetson
-
+``` bash
 git clone https://github.com/ggerganov/llama.cpp
 cd llama.cpp
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j 1
+```
 ### Note: Due to limited RAM, a swapfile is required.
 
 ## Configure Swap (Recommended) 
